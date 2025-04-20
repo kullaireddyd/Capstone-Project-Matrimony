@@ -275,15 +275,6 @@ DB_NAME=job_portal
 
 ---
 
-## 🖼️ Screenshots
-
-Home page 
-
-
-
-
-Job Applications page 
-
 
 
 
