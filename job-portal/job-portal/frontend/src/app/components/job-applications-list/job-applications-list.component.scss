@@ -1,9 +1,10 @@
 .application-list-wrapper {
-  background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1470&q=80');
+  background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1470&q=80');
   background-size: cover;
-  min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 100vh;
+  padding-top:80px;
 }
 .application-list {
   position: relative;
@@ -11,7 +12,6 @@
     padding: 1rem;
     max-width: 800px;
     margin: 0 auto;
-    margin-top: 70px;
     font-family: 'Segoe UI', sans-serif;
     background: linear-gradient(to bottom right, #f0f4ff, #e0f7fa);
     border-radius: 1rem;
