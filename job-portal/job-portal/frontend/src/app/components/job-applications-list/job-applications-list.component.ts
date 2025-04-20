@@ -35,7 +35,7 @@ export class GetAllApplicationsComponent implements OnInit {
         this.loading = false;
       },
       () => {
-        this.errorMessage = 'Error fetching applications';
+        this.errorMessage = '';
         this.loading = false;
       }
     );
