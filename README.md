@@ -47,7 +47,12 @@ ng serve
 | `/jobs/new`           | `JobFormComponent`            | Post a new job                  |
 | `/jobs/edit/:id`      | `JobFormComponent`            | Edit an existing job            |
 | `/jobs/:id`           | `JobDetailsComponent`         | View job details                |
+| `/jobs/:id`           | `JobFormComponent`            | Delete an existing job          |
 | `/jobs/:id/apply`     | `JobApplicationFormComponent` | Apply for the job               |
+| `/applications`       | `JobApplicationListComponent` | Display all application listings|
+| `/applications/:id`   | `JobApplicationListComponent` | Display specific application    |
+
+
 
 ### 🎨 UI & Styling
 
@@ -64,42 +69,6 @@ Make sure you have the following installed:
 npm install
 ng add @angular/material
 ```
-
-📦 (Optional): If you're using toast or loader libraries like `ngx-toastr` or `ngx-spinner`, include them as well.
-
-### ⚠️ Troubleshooting
-
-If you get errors with `ng build`, check:
-
-- Angular Material version compatibility
-- Missing dependencies (`@angular/cdk`, etc.)
-- Fix by running:  
-  ```bash
-  npm install @angular/cdk --save
-  ```
-
-### 🛠️ Environment Configuration
-
-If needed, create an `environment.ts` file in:
-
-```
-src/environments/environment.ts
-```
-
-And add:
-
-```ts
-export const environment = {
-  production: false,
-  apiUrl: 'http://localhost:5000/api'
-};
-```
-
-### 📸 Screenshots
-
-_Add UI screenshots after download_
-
----
 
 ## 📖 Job Portal Backend API (Node.js + Express + MySQL)
 
